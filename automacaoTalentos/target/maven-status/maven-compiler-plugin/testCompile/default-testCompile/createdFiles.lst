@@ -1,0 +1,12 @@
+pages\BasePage.class
+utils\GerarEvidenciasUtils.class
+exceptions\ElementException.class
+pages\GuiaMedicoPage.class
+pages\Hooks.class
+uimaps\GuiaMedicoMap.class
+pages\HomePage.class
+scenarios\TestRunner.class
+config\PropertiesFile.class
+core\Driver.class
+core\Element.class
+uimaps\HomeMap.class
