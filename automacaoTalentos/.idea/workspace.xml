@@ -4,14 +4,174 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6caa6a36-3893-45b8-8479-671191d69310" name="Default Changelist" comment="" />
+    <list default="true" id="6caa6a36-3893-45b8-8479-671191d69310" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_cucumber_extentsreport_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_picocontainer_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_core_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_expressions_5_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_html_0_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_java8_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_java_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_junit_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_dependencies_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_gherkin_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_tag_expressions_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jodah_typetools_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_h2_5_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_picocontainer_picocontainer_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/talentos/CT01CadastraSeNoBancoTalentos.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/talentos/CT02LoginNoBancoTalentos.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/talentos/CT03FichaDeCadastroCurriculo.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/Realiza o Login na pagina.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/1_Cadastre-se em nosso banco de talentos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/1_Clicar no Login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/1_erro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/2_Clicar no botão registre-se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/2_erro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/3_Digitar o email para acessar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/3_erro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/4_Digitar o cpf para acessar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/5_Digital a senha para acessar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/5_erro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/6_Repitir a senha para acessar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/6_erro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/7_Clicar no checkbox Li e concordo com os termos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/7_erro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/8_Clicar no botão Login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/9_O sistema vai para a página de registros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/9_erro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/Realiza o cadastro no banco de talentos.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/1_Cadastre-se em nosso banco de talentos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/2_Clicar no botão registre-se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/3_erro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CadastraSeNoBancoTalentosLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FichaDeCadastroCurriculoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uimaps/CadastraSeNoBancoTalentosLoginMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uimaps/FichaDeCadastroCurriculoMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-06T12-30-13_095-jvmRun1.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-07T15-46-49_861-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-07T19-43-00_665.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-07T20-14-44_824.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-07T20-20-14_471.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-07T20-22-39_124.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-07T20-23-49_947.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-07T20-27-06_542.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-07T20-31-03_867.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-07T20-35-28_033.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-07T20-37-41_010.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-07T20-40-26_678.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2021-05-07T20-43-53_322.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/CadastraSeNoBancoTalentosPageLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/FichaDeCadastroCurriculoPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/uimaps/CadastraSeNoBancoTalentosMapLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/uimaps/FichaDeCadastroCurriculoMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Talentos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/automacaoTalentos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/talentos/CT01Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uimaps/HomeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uimaps/HomeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uimaps/LoginMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report-html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/report-html/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scenarios.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-scenarios.TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/scenarios.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/scenarios.TestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/core/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/core/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GuiaMedicoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/scenarios/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/scenarios/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uimaps/GuiaMedicoMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uimaps/HomeMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uimaps/HomeMap.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/pages/CadastraSeNoBancoTalentosLoginPage.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1qlur0bsTkHbbu4f48LjdBLTLPr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -25,8 +185,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -34,8 +196,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.122100115" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.Runner">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -68,13 +239,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Cucumber Java.Feature: CT01Login" />
-      </list>
-    </recent_temporary>
+    <configuration name="Runner" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mvn" />
+                <option value="test" />
+                <option value="-Dcucumber.options=--tags @login" />
+                <option value="-Dbrowser=chrome" />
+                <option value="-Dlanguage=pt-BR" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: CT01Login" />
+      <item itemvalue="Maven.Runner" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6caa6a36-3893-45b8-8479-671191d69310" name="Default Changelist" comment="" />
@@ -92,6 +294,11 @@
       <workItem from="1620297540148" duration="766000" />
       <workItem from="1620298752562" duration="638000" />
       <workItem from="1620300915664" duration="2853000" />
+      <workItem from="1620315363627" duration="998000" />
+      <workItem from="1620318892324" duration="1193000" />
+      <workItem from="1620433315370" duration="128000" />
+      <workItem from="1620434027887" duration="633000" />
+      <workItem from="1620434687050" duration="416000" />
     </task>
     <servers />
   </component>

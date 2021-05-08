@@ -1,12 +1,14 @@
-C:\Users\sankhya\Desktop\WorkSpace\Estudos de automação\automation\src\test\java\pages\BasePage.java
-C:\Users\sankhya\Desktop\WorkSpace\Estudos de automação\automation\src\test\java\pages\HomePage.java
-C:\Users\sankhya\Desktop\WorkSpace\Estudos de automação\automation\src\test\java\scenarios\TestRunner.java
-C:\Users\sankhya\Desktop\WorkSpace\Estudos de automação\automation\src\test\java\config\PropertiesFile.java
-C:\Users\sankhya\Desktop\WorkSpace\Estudos de automação\automation\src\test\java\pages\GuiaMedicoPage.java
-C:\Users\sankhya\Desktop\WorkSpace\Estudos de automação\automation\src\test\java\core\Element.java
-C:\Users\sankhya\Desktop\WorkSpace\Estudos de automação\automation\src\test\java\exceptions\ElementException.java
-C:\Users\sankhya\Desktop\WorkSpace\Estudos de automação\automation\src\test\java\utils\GerarEvidenciasUtils.java
-C:\Users\sankhya\Desktop\WorkSpace\Estudos de automação\automation\src\test\java\uimaps\HomeMap.java
-C:\Users\sankhya\Desktop\WorkSpace\Estudos de automação\automation\src\test\java\uimaps\GuiaMedicoMap.java
-C:\Users\sankhya\Desktop\WorkSpace\Estudos de automação\automation\src\test\java\core\Driver.java
-C:\Users\sankhya\Desktop\WorkSpace\Estudos de automação\automation\src\test\java\pages\Hooks.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\pages\Hooks.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\scenarios\TestRunner.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\pages\HomePage.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\exceptions\ElementException.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\uimaps\FichaDeCadastroCurriculoMap.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\core\Driver.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\uimaps\HomeMap.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\uimaps\CadastraSeNoBancoTalentosMapLogin.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\core\Element.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\pages\BasePage.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\pages\FichaDeCadastroCurriculoPage.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\config\PropertiesFile.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\pages\CadastraSeNoBancoTalentosPageLogin.java
+C:\Users\sankhya\Downloads\Correção\Correção\testeAutomatizadoTalentos\automacaoTalentos\src\test\java\utils\GerarEvidenciasUtils.java

@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import core.Driver;
 import core.Element;
+import sun.security.util.Password;
 
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;
@@ -74,6 +75,14 @@ public class BasePage {
         element.clear();
         element.sendKeys(texto);
     }
+    /**
+     * Preenche um campo senha
+     *
+     * @param element Elemento (campo)
+     * @param texto   Texto que sera preenchido
+     * @throws Exception Se nao encontrar o campo ou nao conseguir preencher
+     */
+
 
     /**
      * Preenche um campo devagar
@@ -250,6 +259,17 @@ public class BasePage {
     protected String retornaValor(Element element) throws Exception {
         esperarElemento(element);
         String texto = element.getText();
+        return texto;
+    }
+    /**
+     * Retorna o valor do elemento
+     *
+     * @param element Elemento
+     * @return texto Valor do elemento
+     */
+    protected String retornaValue(Element element) throws Exception {
+        esperarElemento(element);
+        String texto = element.makeWebElement().getAttribute("value");
         return texto;
     }
 

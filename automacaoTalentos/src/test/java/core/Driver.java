@@ -3,6 +3,7 @@ package core;
 import java.util.concurrent.TimeUnit;
 import java.util.*;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
@@ -33,8 +34,8 @@ public class Driver {
      */
     public static void startDriver() throws Exception {
         String userDir = System.getProperty("user.dir");
-        System.setProperty("webdriver.chrome.driver", userDir + "/driver/chromedriver.exe");
-        System.setProperty("webdriver.gecko.driver", userDir + "/driver/geckodriver");
+        WebDriverManager.chromedriver().setup();
+        WebDriverManager.firefoxdriver().setup();
         String browser = System.getProperty("browser");
 
         switch (browser) {

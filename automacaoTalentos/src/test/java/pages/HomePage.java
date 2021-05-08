@@ -28,16 +28,16 @@ public class HomePage extends BasePage {
     }
 
     /**
-     * Clicar no link Guia Médico
+     * Clicar no botão Cadastre-se em nosso banco de talentos
      *
      * @throws Exception Se nao conseguir achar um elemento
      */
-    @Given("^Clicar no Login")
-    public void clicarNoLogin() throws Exception {
+    @Given("^Clicar no botão cadastre-se em nosso banco de talentos")
+    public void clicarNobtnCadastreSe() throws Exception {
         esperarPagina();
         esperarImplicita();
-        clicar(homeMap.txtLogin);
-        GerarEvidenciasUtils.takeScreenshot("Clicar no Login");
+        clicar(homeMap.btnLogin);
+        GerarEvidenciasUtils.takeScreenshot("Cadastre-se em nosso banco de talentos");
     }
 }
 
