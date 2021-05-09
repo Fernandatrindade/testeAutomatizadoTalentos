@@ -1,12 +1,12 @@
 pages\BasePage.class
 utils\GerarEvidenciasUtils.class
 pages\HomePage.class
-uimaps\CadastraSeNoBancoTalentosMapLogin.class
 uimaps\FichaDeCadastroCurriculoMap.class
 scenarios\TestRunner.class
+uimaps\CadastraSeNoBancoTalentosLoginMap.class
 core\Element.class
 pages\FichaDeCadastroCurriculoPage.class
-pages\CadastraSeNoBancoTalentosPageLogin.class
+pages\CadastraSeNoBancoTalentosLoginPage.class
 exceptions\ElementException.class
 pages\Hooks.class
 config\PropertiesFile.class

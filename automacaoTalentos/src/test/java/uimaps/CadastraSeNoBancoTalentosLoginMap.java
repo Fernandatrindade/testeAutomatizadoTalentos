@@ -11,6 +11,7 @@ public class CadastraSeNoBancoTalentosLoginMap {
     public Element btnCadastrar= new Element("xpath","//*[text()='Cadastrar']");
     public Element txtCpf= new Element("xpath","//input[@name='cpf']");
     public Element txtCheckbox = new Element("xpath", "//*/label[@class='pure-material-checkbox']/span");
+
     public Element txtEmailCpf = new Element("xpath", "//input[@name='user']");
     public Element btnLogar = new Element ("xpath","//*[text()='Logar']");
 

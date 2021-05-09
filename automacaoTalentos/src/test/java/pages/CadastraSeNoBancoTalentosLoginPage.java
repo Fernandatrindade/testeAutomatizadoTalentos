@@ -2,6 +2,7 @@ package pages;
 
 import config.PropertiesFile;
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
@@ -131,7 +132,47 @@ public class CadastraSeNoBancoTalentosLoginPage extends BasePage {
 
     }
 
+    /**
+     * Preencher o e-mail ou o cpf para logar no sistema
+     *
+     * @throws Exception Se nao conseguir achar um elemento
+     */
 
+    @And("Preencher o e-mail ou o cpf para logar no sistema \"(.*)\"$")
+    public void preencherEmailOuCpf(String emailOuCpf) throws Exception {
+        esperarPagina();
+        esperarImplicita();
+        preencher(cadastraSeNoBancoTalentosMap.txtEmailCpf, emailOuCpf);
 
+        GerarEvidenciasUtils.takeScreenshot("Preencher o e-mail ou o cpf para logar no sistema");
+    }
+
+    /**
+     * Preencher a senha para logar no sistema
+     *
+     * @throws Exception Se nao conseguir achar um elemento
+     */
+
+    @And("Preencher a senha para logar no sistema \"(.*)\"$")
+    public void preencherSenhaLogar(String senha) throws Exception {
+        esperarPagina();
+        esperarImplicita();
+        preencher(cadastraSeNoBancoTalentosMap.txtSenha, senha);
+        GerarEvidenciasUtils.takeScreenshot("Preencher a senha para logar no sistema");
+    }
+    /**
+     * Clicar no botão Logar
+     *
+     * @throws Exception Se nao conseguir achar um elemento
+     */
+
+    @And("^Clicar em Logar")
+    public void clicarNoBtnLogar() throws Exception {
+        esperarPagina();
+        esperarImplicita();
+        clicar(cadastraSeNoBancoTalentosMap.btnLogar);
+        GerarEvidenciasUtils.takeScreenshot("Preencher a senha para logar no sistema");
+
+    }
 }
 

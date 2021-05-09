@@ -1,5 +1,5 @@
 #@smokeTest
-@login
+#@login
 Feature: Realiza o Login na pagina
 
   Background:
@@ -15,7 +15,15 @@ Feature: Realiza o Login na pagina
     And Clicar no checkbox
     And Clicar no botão Cadastrar
     Then O sistema vai para a página de registros "<cpf>"
+    And Preencher o telefone "<telefone>"
+    And Preecnher o email "<email>"
+    And Preecnher o secundo email "<email>"
+    And Preencher o nome completo "<nome>"
+    And Selecionar um genero "<genero>"
+    And Prencher a data de Nascimento "<nascimento>"
+    And Selecionar um estado civil "<civil>"
+    And Selecionar uma senioridade "<senioridade>"
 
     Examples:
-      | email                      | cpf            | senha  | repetir |
-      | thithiJesus40@teste.com.br | 143.490.610-88 | fer123 | fer123  |
+      | email                      | cpf            | senha  | repetir | telefone  | nome           | genero    | nascimento | civil    | senioridade |
+      | thithiJesus50@teste.com.br | 881.798.830-86 | fer123 | fer123  | 998922889 | Thiago Jessuas | Masculino | 17/05/1992 | Solteiro | Operacional |

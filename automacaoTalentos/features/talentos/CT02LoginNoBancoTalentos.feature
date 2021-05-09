@@ -1,5 +1,5 @@
 #@smokeTest
-#@login
+@logar
 Feature: Realiza o Login na pagina
 
   Background:
@@ -7,15 +7,11 @@ Feature: Realiza o Login na pagina
 
   Scenario Outline: Realiza o Login na pagina
     Given Clicar no botão cadastre-se em nosso banco de talentos
-    When Clicar em Registre-se
-    And Preecher email "<email>"
-    And Preecher cpf "<cpf>"
+    When Preencher o e-mail ou o cpf para logar no sistema "<email>"
     And Preecher senha "<senha>"
-    And Preenhcer o repetir senha "<repetir>"
-    And Clicar no checkbox
-    And Clicar no botão Cadastrar
-    Then O sistema vai para a página de registros
+    And Clicar em Logar
+    Then O sistema vai para a página de registros "<cpf>"
 
     Examples:
-      | email                         | cpf            | senha  | repetir |
-      | fernandatrindade@teste.com.br | 382.524.340-02 | fer123 | fer123  |
+      | email                         | cpf            | senha  |
+      | fernandatrindade@teste.com.br | 382.524.340-02 | fer123 |
