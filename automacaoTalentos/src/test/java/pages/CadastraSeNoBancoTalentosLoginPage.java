@@ -37,7 +37,7 @@ public class CadastraSeNoBancoTalentosLoginPage extends BasePage {
      * @throws Exception Se nao conseguir achar um elemento
      */
 
-    @And("Preecher email \"(.*)\"$")
+    @And("Preencher email \"(.*)\"$")
     public void preecherEmail(String email) throws Exception{
         esperarPagina();
         esperarImplicita();
@@ -51,7 +51,7 @@ public class CadastraSeNoBancoTalentosLoginPage extends BasePage {
      * @throws Exception Se nao conseguir achar um elemento
      */
 
-    @And("Preecher cpf \"(.*)\"$")
+    @And("Preencher cpf \"(.*)\"$")
     public void preecherCpf(String cpf) throws Exception{
         esperarPagina();
         esperarImplicita();
@@ -66,8 +66,8 @@ public class CadastraSeNoBancoTalentosLoginPage extends BasePage {
      * @param password
      */
 
-    @And("Preecher senha \"(.*)\"$")
-    public void preecherSenha(String password) throws Exception{
+    @And("Preencher senha \"(.*)\"$")
+    public void preencherSenha(String password) throws Exception{
         esperarPagina();
         esperarImplicita();
         preencher(cadastraSeNoBancoTalentosMap.txtSenha, password);

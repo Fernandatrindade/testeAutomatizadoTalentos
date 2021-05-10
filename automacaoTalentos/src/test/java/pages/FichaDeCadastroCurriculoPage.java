@@ -5,11 +5,13 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import uimaps.FichaDeCadastroCurriculoMap;
+import utils.GerarEvidenciasUtils;
+
+import java.util.ArrayList;
 
 public class FichaDeCadastroCurriculoPage extends BasePage {
 
     FichaDeCadastroCurriculoMap fichaDeCadastroMap = new FichaDeCadastroCurriculoMap();
-
 
 
     /**
@@ -23,8 +25,10 @@ public class FichaDeCadastroCurriculoPage extends BasePage {
         esperarPagina();
         esperarImplicita();
         preencher(fichaDeCadastroMap.txtTelefone, telefone);
+        GerarEvidenciasUtils.takeScreenshot("Preencher o telefone");
 
     }
+
     /**
      * Preencher o email
      *
@@ -35,6 +39,7 @@ public class FichaDeCadastroCurriculoPage extends BasePage {
         esperarPagina();
         esperarImplicita();
         preencher(fichaDeCadastroMap.txtEmail, email);
+        GerarEvidenciasUtils.takeScreenshot("Preencher o email");
     }
 
     /**
@@ -47,7 +52,9 @@ public class FichaDeCadastroCurriculoPage extends BasePage {
         esperarPagina();
         esperarImplicita();
         preencher(fichaDeCadastroMap.txtSecondEmail, secondEmail);
+        GerarEvidenciasUtils.takeScreenshot("Preencher o email novamente");
     }
+
     /**
      * Preencher o nome completo
      *
@@ -56,52 +63,60 @@ public class FichaDeCadastroCurriculoPage extends BasePage {
     @And("Preencher o nome completo \"(.*)\"$")
     public void preencherNomeCompleto(String nome) throws Exception {
         esperarPagina();
+        esperarImplicita();
         esperarElemento(fichaDeCadastroMap.txtNome);
         scrollToElement(fichaDeCadastroMap.txtNome);
         preencher(fichaDeCadastroMap.txtNome, nome);
+        GerarEvidenciasUtils.takeScreenshot("Preencher o nome completo");
     }
+
     /**
      * Selecionar o genero
      *
      * @throws Exception Se nao conseguir achar um elemento
      */
-    @And("Selecionar um genero \"(.*)\"$")
+    @And("^Selecionar um genero \"(.*)\"$")
     public void selecionarUmGenero(String genero) throws Exception {
         esperarPagina();
-        esperarImplicita();
-        selecionarPorTexto(fichaDeCadastroMap.txtGenero, genero);
+        esperarElemento(fichaDeCadastroMap.txtGeneroDrop);
+        scrollToElement(fichaDeCadastroMap.txtGeneroDrop);
+        clicar(fichaDeCadastroMap.txtGeneroDrop);
+        String txtGeneroDrop  = retornaValue(fichaDeCadastroMap.txtGenero);
+        String generos  = retornaValue(fichaDeCadastroMap.txtGenero);
+        System.out.println(generos + txtGeneroDrop);
+        esperarElemento(fichaDeCadastroMap.txtGenero);
+        scrollToElement(fichaDeCadastroMap.txtGenero);
+        preencher(fichaDeCadastroMap.txtGenero,genero );
+        GerarEvidenciasUtils.takeScreenshot("Selecionar um genero");
     }
+
     /**
      * Preencher a data de Nascimento
      *
      * @throws Exception Se nao conseguir achar um elemento
      */
-    @And("Prencher a data de Nascimento \"(.*)\"$")
-    public void preecherNascimento(String nacsimento) throws Exception {
+    @And("Preencher a data de Nascimento \"(.*)\"$")
+    public void preencherNascimento(String nascimento) throws Exception {
         esperarPagina();
         esperarImplicita();
-        selecionarPorTexto(fichaDeCadastroMap.txtDataNacimento, nacsimento);
+        preencher(fichaDeCadastroMap.txtDataNacimento, nascimento);
+        GerarEvidenciasUtils.takeScreenshot("Preencher a data de nascimento");
     }
+
     /**
-     * Selecionar o estado civil
+     * Clicar em salvar e ir para a proxima etapa
      *
      * @throws Exception Se nao conseguir achar um elemento
      */
-    @And("Selecionar um estado civil \"(.*)\"$")
-    public void selecionarOEstadoCivil(String genero) throws Exception {
+    @And("Clicar em salvar e ir para a proxima etapa")
+    public void clicarSalvar() throws Exception {
         esperarPagina();
-        esperarImplicita();
-        selecionarPorTexto(fichaDeCadastroMap.txtEstadosCivil, genero);
+        esperarElemento(fichaDeCadastroMap.btnSalvar);
+        scrollToElement(fichaDeCadastroMap.btnSalvar);
+        clicar(fichaDeCadastroMap.btnChatClose);
+        clicar(fichaDeCadastroMap.btnChatClose2);
+        clicar(fichaDeCadastroMap.btnSalvar);
+        GerarEvidenciasUtils.takeScreenshot("Clicar em salvar e ir para a proxima etapa");
     }
-    /**
-     * Selecionar uma Senioridade
-     *
-     * @throws Exception Se nao conseguir achar um elemento
-     */
-    @And("Selecionar uma senioridade \"(.*)\"$")
-    public void selecionarUmaSenioridade(String senioridade) throws Exception {
-        esperarPagina();
-        esperarImplicita();
-        selecionarPorTexto(fichaDeCadastroMap.txtSenioridade, senioridade);
-    }
+
 }
