@@ -28,7 +28,7 @@ As evidencias de teste se encontram na pasta \output
 O relatorio se encontra na pasta \report-html
 
 ## Bugs e Melhorias
-Os bugs e as melhorias encontradas estão no projeto [bugs e melhorias](https://github.com/Fernandatrindade/Testes-Manuais-Banco-de-talentos#readme) no arquivo **README.MD**, foi encontrado 2 erros na automação de testes.
+Os bugs e as melhorias encontradas estão no projeto [Testes Manuais Banco de talentos](https://github.com/Fernandatrindade/Testes-Manuais-Banco-de-talentos), no arquivo [**README.MD**](https://github.com/Fernandatrindade/Testes-Manuais-Banco-de-talentos#readme), foi encontrado 2 erros na automação de testes.
 
 ## Cenarios de testes
-Os cenarios de testes estão no projeto [cenarios de testes](https://github.com/Fernandatrindade/Testes-Manuais-Banco-de-talentos/blob/main/Casos%20de%20testes%20manuais) no arquivo **Caso de testes manuais**
+Os cenarios de testes estão no projeto [Testes Manuais Banco de talentos](https://github.com/Fernandatrindade/Testes-Manuais-Banco-de-talentos) no arquivo [**Caso de testes manuais**](https://github.com/Fernandatrindade/Testes-Manuais-Banco-de-talentos/blob/main/Casos%20de%20testes%20manuais)
