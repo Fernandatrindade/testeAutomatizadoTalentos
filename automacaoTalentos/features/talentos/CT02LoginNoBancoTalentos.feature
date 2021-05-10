@@ -1,5 +1,5 @@
 #@smokeTest
-@logar
+#@logar
 Feature: Realiza o Login na pagina
 
   Background:

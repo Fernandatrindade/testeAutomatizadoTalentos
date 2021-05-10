@@ -4,34 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6caa6a36-3893-45b8-8479-671191d69310" name="Default Changelist" comment="Feito as feature do Login e da Ficha de cadastro">
-      <change afterPath="$PROJECT_DIR$/features/talentos/CT04SmokeTeste.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/10_erro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/5_Preencher o telefone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/6_Preencher o email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/7_Preencher o email novamente.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/7_erro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/8_Preencher o nome completo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/9_Preencher a data de nascimento.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/9_erro.png" afterDir="false" />
+    <list default="true" id="6caa6a36-3893-45b8-8479-671191d69310" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/talentos/CT01CadastraSeNoBancoTalentos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/talentos/CT01CadastraSeNoBancoTalentos.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/talentos/CT02LoginNoBancoTalentos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/talentos/CT02LoginNoBancoTalentos.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/talentos/CT03FichaDeCadastroCurriculo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/talentos/CT03FichaDeCadastroCurriculo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/talentos/CT04SmokeTeste.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/talentos/CT04SmokeTeste.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/1_Cadastre-se em nosso banco de talentos.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/1_Cadastre-se em nosso banco de talentos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/2_Preencher o e-mail ou o cpf para logar no sistema.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/2_Preencher o e-mail ou o cpf para logar no sistema.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/3_Digital a senha para acessar.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/3_Digital a senha para acessar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/3_Digitar o email para acessar.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/3_Digitar o email para acessar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/4_Digitar o cpf para acessar.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/4_Digitar o cpf para acessar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/4_Preencher a senha para logar no sistema.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/4_Preencher a senha para logar no sistema.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/5_Digital a senha para acessar.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/5_Digital a senha para acessar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/5_O sistema vai para a página de registros.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/5_O sistema vai para a página de registros.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/6_Repitir a senha para acessar.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/6_Repitir a senha para acessar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/7_Clicar no checkbox Li e concordo com os termos.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/7_Clicar no checkbox Li e concordo com os termos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/8_Clicar no botão Login.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/8_Clicar no botão Login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/9_O sistema vai para a página de registros.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o Login na pagina/images/9_O sistema vai para a página de registros.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/1_Cadastre-se em nosso banco de talentos.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/1_Cadastre-se em nosso banco de talentos.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/2_Preencher o e-mail ou o cpf para logar no sistema.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/2_Preencher o e-mail ou o cpf para logar no sistema.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/3_Digital a senha para acessar.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/3_Digital a senha para acessar.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/4_Preencher a senha para logar no sistema.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/4_Preencher a senha para logar no sistema.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/5_erro.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/5_erro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CadastraSeNoBancoTalentosLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CadastraSeNoBancoTalentosLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FichaDeCadastroCurriculoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FichaDeCadastroCurriculoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uimaps/FichaDeCadastroCurriculoMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uimaps/FichaDeCadastroCurriculoMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/5_Preencher o telefone.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/5_Preencher o telefone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/6_Preencher o email.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/6_Preencher o email.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/7_Preencher o email novamente.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/7_Preencher o email novamente.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/8_Preencher o nome completo.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/8_Preencher o nome completo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/9_erro.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Realiza o cadastro no banco de talentos/images/9_erro.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report-html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/report-html/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scenarios.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-scenarios.TestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/scenarios.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/scenarios.TestRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/FichaDeCadastroCurriculoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/FichaDeCadastroCurriculoPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/uimaps/FichaDeCadastroCurriculoMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uimaps/FichaDeCadastroCurriculoMap.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +188,7 @@
       <workItem from="1620434687050" duration="2172000" />
       <workItem from="1620488638281" duration="28920000" />
       <workItem from="1620568846359" duration="1072000" />
-      <workItem from="1620600145261" duration="7184000" />
+      <workItem from="1620600145261" duration="8204000" />
     </task>
     <task id="LOCAL-00001" summary="Feito as feature do Login e da Ficha de cadastro">
       <created>1620524257544</created>
@@ -195,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620524257544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finalizado o projeto">
+      <created>1620608009385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620608009385</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +213,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Feito as feature do Login e da Ficha de cadastro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feito as feature do Login e da Ficha de cadastro" />
+    <MESSAGE value="Finalizado o projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizado o projeto" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 #@smokeTest
-@fichaDeCadastro
+#@fichaDeCadastro
 Feature: Realiza o Login na pagina
 
   Background:
