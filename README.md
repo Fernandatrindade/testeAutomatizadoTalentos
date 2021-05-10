@@ -19,6 +19,11 @@ Navegador Chrome na versão 89.0.4389.114 (Versão oficial) 64 bits
 
 Maven configurado no seu classpath
 
+Executar o comando git clone para realizar o dowload do projeto
+```shell script
+https://github.com/Fernandatrindade/testeAutomatizadoTalentos.git
+```
+
 Para executar a suíte de testes, basta executar o seguinte comando:
 
 ```shell script
