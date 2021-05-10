@@ -8,7 +8,10 @@ E um projeto de automação que realiza o fluxo de cadastrar no banco de talento
 - [X] Smoke Teste
 
 ## Ferramenta para automação web
-Selenium IDE, cucumber, InteliJ IDE, junit
+- Selenium IDE
+- cucumber
+-  InteliJ IDE 
+-  Junit
 
 ## Pré condições para a execução do projeto
 Java 1.8 ou versãos superiores
